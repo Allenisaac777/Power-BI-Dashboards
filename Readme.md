@@ -5,20 +5,50 @@
 
 This dashboard was created for **Job Seekers, Job Transitioners, and Job Swappers** to solve a common problem: information about the data job market is scattered and hard to grasp. Using a real-world dataset of 2024 data science job postings (including titles, salaries, and locations), this project provides a single, easy-to-use interface to explore market trends and compensation.
 
-## Skills Showcased
+## ✅ Skills Showcased
+This project was a comprehensive journey through key Power BI features, showcasing both technical proficiency and design thinking. Here's what was mastered:
 
-This project was a journey through key Power BI features. Here's a look at what we mastered:
+🎨 Dashboard Design & Storytelling
+Crafted intuitive and visually engaging layouts to guide users through insights.
 
--   **⚙️ Data Transformation (ETL) with Power Query:** Cleaned, shaped, and prepared the raw data for analysis by handling blanks, changing data types, and creating new columns.
--   **🧮 Implicit Measures:** Formulated measures to derive key insights and KPIs like `Median Yearly Salary` and `Job Count`.
--   **📊 Core Charts:** Utilized **Column, Bar, Line,** and **Area Charts** to compare job counts and track trends over time.
--   **🗺️ Geospatial Analysis:** Leveraged **Map Charts** to visualize the global distribution of jobs.
--   **🔢 KPI Indicators & Tables:** Used **Cards** to display key metrics and **Tables** to provide granular, sortable data.
--   **🎨 Dashboard Design:** Designed an intuitive and visually appealing layout, exploring both common and uncommon chart types to best tell the data story.
--   **🖱️ Interactive Reporting:**
-    -   **Slicers:** To dynamically filter the report by Job Title.
-    -   **Buttons & Bookmarks:** To create a seamless navigation experience.
-    -   **Drill-Through:** To navigate from a high-level summary to a contextual, detailed view.
+Selected from both common and uncommon chart types to enhance data storytelling.
+
+⚙️ Data Transformation (ETL) with Power Query
+Cleaned and shaped raw data by handling blanks, correcting data types, and creating calculated columns.
+
+Applied Power Query transformations to prepare data for modeling and analysis.
+
+🔗 Data Modeling
+Built efficient data models using Star Schema principles, optimizing performance and usability.
+
+Established proper relationships between tables for seamless analysis.
+
+🧮 DAX Calculations & Measures
+Developed implicit and explicit measures to derive key metrics such as:
+
+Median Yearly Salary
+
+Job Count
+
+Custom KPIs
+
+Used DAX for aggregations, filters, and time-based calculations.
+
+📊 Visualizations Utilized
+Core Charts: Column, Bar, Line, and Area charts for comparisons and trends.
+
+Map Charts: To visualize geospatial job distributions.
+
+Cards: For showcasing KPIs and summary insights.
+
+Tables: To display detailed and sortable tabular data.
+
+🖱️ Interactive Features & UX Enhancements
+Slicers: Enabled dynamic filtering by attributes like Job Title or Location.
+
+Buttons & Bookmarks: Created smooth navigation and report state management.
+
+Drill-Through Pages: Provided contextual deep dives from summary dashboards.
 ---
 ### Page 1: High-Level Market View
 
@@ -31,6 +61,11 @@ This is your mission control for the data job market. It showcases key KPIs like
 
 
 This is the deep-dive page. From the main dashboard, you can drill through to this view to get specific details for a single job title, including salary ranges, work-from-home stats, top hiring platforms, and a global map of job locations.
+
+###  JOBS DASHBOARD 2.0
+![Dashboard demo](/images/dashboard_demo.gif)
+
+
 
 ## Conclusion
 
